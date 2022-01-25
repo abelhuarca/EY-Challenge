@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UC insert user</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UC insert user</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.ey.challenge.user.domain.usecase.html">com.ey.challenge.user.domain.usecase</a> &gt; AppUserManagementUCImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.004s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">When Register user, then Return Data.</td>
+<td class="success">whenUserRegister()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-01-07 14:53:55.594  INFO 10124 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.ey.challenge.user.domain.usecase.AppUserManagementUCImplTest], using DelegatingSmartContextLoader
+2022-01-07 14:53:55.594  INFO 10124 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.ey.challenge.user.domain.usecase.AppUserManagementUCImplTest]: no resource found for suffixes {-context.xml}.
+2022-01-07 14:53:55.594  INFO 10124 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.ey.challenge.user.domain.usecase.AppUserManagementUCImplTest]: AppUserManagementUCImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-01-07 14:53:55.595  INFO 10124 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-01-07 14:53:55.595  INFO 10124 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@486af15e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@64f95334, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@22a86cb3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7b78a739, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@64075909, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a49c64e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2be5f640, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@159add6a, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4b0b01c1, org.springframework.test.context.event.EventPublishingTestExecutionListener@4f74c558, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4b276d00, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8959883, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b838559, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7234cd74, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@20be15f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@267e301d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2150d0c6]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at Jan 7, 2022 2:53:55 PM</p>
+</div>
+</div>
+</body>
+</html>

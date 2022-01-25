@@ -1,0 +1,8 @@
+com/ey/challenge/user/adapter/database/user/AppUserManagementServiceImplTest.java
+ com.ey.challenge.user.adapter.database.user.AppUserManagementServiceImplTest
+com/ey/challenge/user/AppUserTest.java
+ com.ey.challenge.user.AppUserTest
+com/ey/challenge/user/domain/usecase/AppUserManagementUCImplTest.java
+ com.ey.challenge.user.domain.usecase.AppUserManagementUCImplTest
+com/ey/challenge/user/adapter/controller/AppAppUserControllerTest.java
+ com.ey.challenge.user.adapter.controller.AppAppUserControllerTest

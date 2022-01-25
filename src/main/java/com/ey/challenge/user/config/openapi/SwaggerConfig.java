@@ -12,7 +12,7 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI customOpenAPI(@Value("${springdoc.version}") String appVersion) {
-        return new OpenAPI().info(new Info().title("Products API")
+        return new OpenAPI().info(new Info().title("EY challenge [User Api]")
                 .version(appVersion)
                 .description("Open Api description to EY challenge")
                 .termsOfService("http://swagger.io/terms/")

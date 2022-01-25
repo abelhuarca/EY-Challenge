@@ -2,4 +2,4 @@
 
 ## Arquitectura
 
-![Arquitectura PLIN](./docs/architecture/EY-Challenge-Solution-Diagram.png)
+![Arquitectura PLIN](./docs/architecture/EY-Challenge-Solution-Diagramv2.png)
